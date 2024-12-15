@@ -17,5 +17,15 @@
     "workflowRules": {
       "enabled": true
     }
-  }
+  },
+  "hostRules": [
+    {
+      "matchHost": "https://pkgs.dev.azure.com/galgernitzky/_packaging/galgernitzky/maven/v1",
+      "hostType": "maven",
+      "userName": "galgernitzky",
+      "encrypted": {
+        "password": "wcBMA8xOaBJvzJNbAQf+MBUTFkGiAib5Z8iWzXaBBHDJUWNAmXLsNXQ/kzpHIItLKtpU9IN3+MPGodvwJLN57ZLWmWWp1T0MTH5NIPi0Gn+V0pSuvphg+9chVLsapwemZGKhKP3mUJytg/a7xYfCRL4uZp+WmHKAbkPHI69rpmYFeCnma1VTHHr7aL3EE4CAwVveMYWp1ev6PjhUHpC8ru+JPDH1y1ynDBlx+mEJ35K8JNk7JXmvTLZR7iX1jufkjQbgPT0/JN2pFAQLkdBL/+guoXYk5gDrUl2ib1Rlv6iwrvlCW9jwOAJMCDH0mgFEXMGa6V4eX4L3WYP+s+DM/I/kbzcybtZTLoFA3LQCC9KkASBdPTJrBeChgtXQxZMsosWuTg45shCcrg6QXFq4SqPLTPFPuuoEWbB/0XVHsBzGwTD1wxgQ/hcWatljC7O+UNTIEyLBB98O13OrwGbfPjJ72twdvBKGs7T5Na0D5lPvmksCA2r/lpnrmO5aHTQo/qeIsp7BbYnb6/sh+L4Fls3bOfTTwZlk6mjTOeumpZymOl21SB2zHOMhQXzXp16xO8QKNxI"
+      }
+    }
+  ]
 }
